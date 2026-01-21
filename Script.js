@@ -18,13 +18,7 @@ const BRANCH_CONFIG = {
 };
 
 /* ====== متغير لتحديد الفرع الحالي من الرابط ====== */
-let currentBranchId = 'branch1'; // القيمة الافتراضية
-const urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('branch')) {
-    currentBranchId = urlParams.get('branch');
-}
-const currentBranch = BRANCH_CONFIG[currentBranchId] || BRANCH_CONFIG['branch1'];
-document.title = `قائمة سحايب ديرتي - فرع ${currentBranch.name}`; // تحديث عنوان الصفحة باسم الفرع
+const currentBranchId = 'branch1';
 
 /* ====== بيانات المنيو - تم تحديث جميع مسارات الصور إلى صيغة WEBP وباسم قصير (مثال: /Dirty55/sh01.webp) ====== */
 const menuData = [
