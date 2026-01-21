@@ -196,22 +196,7 @@ const menuData = [
             {id:"mq2", img:"mq00.webp", name:"بطاطس وسط", basePrice:7, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن وسط", price:0}]}
         ]
     },
-    
-    
-    { 
-        section:"الأطباق الجانبية", 
-        sectionImg: "si00.webp",
-        items:[
-              // الوجبة 3 // الوجبة 5
-            {id:"side7", img:"si05.webp", name:"نفر رز شعبي", basePrice:10, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"نفر", price:0}]},
-            // الوجبة 6
-            {id:"side8", img:"si06.webp", name:"نفر رز بشاور", basePrice:10, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"نفر", price:0}]},
-            // الوجبة 7
-            {id:"side9", img:"si07.webp", name:"نفر رز مندي", basePrice:10, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"نفر", price:0}]}
-        ]
-    },
-    { 
-    
+  
     { 
         section:"المشروبات ", 
         sectionImg: "kn00.webp",
