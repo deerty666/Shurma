@@ -31,25 +31,32 @@ const menuData = [
         items:[] 
     },
     { 
-        section:"الشوايه", 
+        section:"الشاورما", 
         sectionImg: "sh00.webp", // صورة القسم
         items:[
             // الوجبة 1
-            {id:"sh1", img:"sh00.webp", name:"حبة شواية", basePrice:46, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"sh1", img:"sh00.webp", name:"شامي", basePrice:46, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"رز شعبي", price:0},
                 {name:"رز بشاور", price:4},
                 {name:"رز مندي", price:4},
                 {name:"رز مثلوثه", price:4}
             ]},
             // الوجبة 2: تم تغيير اسمها
-            {id:"sh2", img:"sh00.webp", name:"نص شواية بالرز", basePrice:23, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"sh2", img:"sh00.webp", name:"صامولي", basePrice:23, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"رز شعبي", price:0},
                 {name:"رز بشاور", price:2},
                 {name:"رز مندي", price:2},
                 {name:"رز مثلوثه", price:2}
             ]},
             // الوجبة 3: نص شواية سادة
-            {id:"sh3", img:"sh10.webp", name:"ربع دجاج ",
+            {id:"sh3", img:"sh10.webp", name:"فطيرة",
+             basePrice:15,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[
+               {name:"شوايه", price:0},
+               {name:"مندي", price:0}  
+            ]},
+            {id:"sh3", img:"sh10.webp", name:"فطيرة",
              basePrice:15,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -60,7 +67,7 @@ const menuData = [
             {
                 id:"sh4", 
                 img:"sh20.webp", 
-                name:"نصف دجاج (ساده بدون رز شوايه آو مضبي آو مندي)", 
+                name:"صاروخ", 
                 basePrice:15, 
                 isBestSeller: true, 
                 availableIn: ['branch1', 'branch2', 'branch3'], 
