@@ -695,7 +695,7 @@ sendWhatsapp.addEventListener('click', () => {
 
     const deliveryType = document.querySelector('input[name="deliveryType"]:checked')?.value;
     // 📍 متغيرات رسائل الواتساب
-    const lines=['طلب جديد من مطاعم سحايب ديرتي:'];
+    const lines=['طلب جديد:'];
     let subtotal = 0;
 
     cart.forEach(it=>{
