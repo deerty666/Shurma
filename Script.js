@@ -20,14 +20,14 @@ const BRANCH_CONFIG = {
 /* ====== متغير لتحديد الفرع الحالي من الرابط ====== */
 const currentBranchId = 'branch1';
 const currentBranch = BRANCH_CONFIG[currentBranchId] || BRANCH_CONFIG['branch1'];
-document.title = `قائمة سحايب ديرتي - فرع ${currentBranch.name}`;
+document.title = `قائمة لذة الشاطر - فرع ${currentBranch.name}`;
 
 /* ====== بيانات المنيو - تم تحديث جميع مسارات الصور إلى صيغة WEBP وباسم قصير (مثال: /Dirty55/sh01.webp) ====== */
 const menuData = [
     // 1. القسم الجديد: الكل
     { 
         section:"الكل", 
-        sectionImg: "logo-bg55.webp", // صورة عامة
+        sectionImg: "logo-bg565.webp", // صورة عامة
         items:[] 
     },
     { 
@@ -254,7 +254,7 @@ function processMenuData(data) {
     if (bestSellers.length > 0) {
         let bestSellerSection = {
             section: "الأكثر مبيعاً 🏆", 
-            sectionImg: "best_seller_icon.webp", 
+            sectionImg: "best4_seller_icon.webp", 
             items: bestSellers,
             sectionAvailableIn: ['branch1', 'branch2', 'branch3'] 
         };
