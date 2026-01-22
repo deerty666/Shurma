@@ -35,19 +35,19 @@ const menuData = [
         sectionImg: "sh01.webp", // صورة القسم
         items:[
             // الوجبة 1
-            {id:"sh1", img:"sh00.webp", name:"شامي", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"sh1", img:"sh001.webp", name:"شامي", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 2: تم تغيير اسمها
-            {id:"sh2", img:"sh02.webp", name:"صامولي", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"sh2", img:"sh056.webp", name:"صامولي", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 3: نص شواية سادة
-            {id:"sh3", img:"sh1.webp", name:"فطيرة",
+            {id:"sh3", img:"sh110.webp", name:"فطيرة",
              basePrice:6,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -55,7 +55,7 @@ const menuData = [
                {name:"بالجبن", price:1},
                {name:"دبل جبن", price:2}  
             ]},
-            {id:"sh4", img:"sh11.webp", name:"صاروخا",
+            {id:"sh4", img:"sh01.webp", name:"صاروخا",
              basePrice:8,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -63,7 +63,7 @@ const menuData = [
                {name:"بالجبن", price:1}, 
                {name:"دبل جبن", price:2}  
             ]},
-             {id:"sh4", img:"sh10.webp", name:"صاروخ اسبيشل",
+             {id:"sh4", img:"sh01.webp", name:"صاروخ اسبيشل",
              basePrice:14,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -71,7 +71,7 @@ const menuData = [
                {name:"بالجبن", price:1}, 
                {name:"دبل جبن", price:2}  
             ]},
-              {id:"sh5", img:"sh10.webp", name:"صحن عربي صغير",
+              {id:"sh5", img:"sh108.webp", name:"صحن عربي صغير",
              basePrice:15,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -90,7 +90,7 @@ const menuData = [
             // الوجبة 4: العرض الاقتصادي الجديد
             {
                 id:"sh6", 
-                img:"sh20.webp", 
+                img:"sh108.webp", 
                 name:"صحن عربي وسط", 
                 basePrice:20, 
                 isBestSeller: true, 
@@ -105,50 +105,50 @@ const menuData = [
     },
     { 
         section:"وجبات", 
-        sectionImg: "md00.webp",
+        sectionImg: "md040.webp",
         items:[
             // الوجبة 1
-            {id:"md1", img:"md00.webp", name:"وجبه برجردجاج/ببسي/2سندوتش/بطاطس", basePrice:20, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md1", img:"md040.webp", name:"وجبه برجردجاج/ببسي/2سندوتش/بطاطس", basePrice:20, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:2},
                 {name:"دبل جبن", price:4}
             ]},
             // الوجبة 1
-            {id:"md2", img:"md00.webp", name:"وجبه برجر لحم/ببسي/2سندوتش/بطاطس", basePrice:46, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md2", img:"md040.webp", name:"وجبه برجر لحم/ببسي/2سندوتش/بطاطس", basePrice:46, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:2},
                 {name:"دبل جبن", price:4}
             ]},
             // الوجبة 1
-            {id:"md3", img:"md00.webp", name:"وجبه زنجر/ببسي/2سندوتش/بطاطس", basePrice:26, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md3", img:"md080.webp", name:"وجبه زنجر/ببسي/2سندوتش/بطاطس", basePrice:26, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:2},
                 {name:"دبل جبن", price:4}
             ]},
             // الوجبة 2
-            {id:"md4", img:"md00.webp", name:"وجبه مسحب", basePrice:15, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md4", img:"md080.webp", name:"وجبه مسحب", basePrice:15, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0}
             ]}
         ]
     },
     { 
         section:"السندوتشات ", 
-        sectionImg: "mn00.webp",
+        sectionImg: "md040.webp",
         items:[
             // الوجبة 1
-            {id:"mn1", img:"mn00.webp", name:"برجر دجاج", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn1", img:"md040.webp", name:"برجر دجاج", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 1
-            {id:"mn2", img:"mn00.webp", name:"برجر لحم", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn2", img:"md040.webp", name:"برجر لحم", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 1
-            {id:"mn3", img:"mn00.webp", name:"مسحب", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn3", img:"md080.webp", name:"مسحب", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
@@ -160,13 +160,13 @@ const menuData = [
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 1
-            {id:"mn5", img:"mn00.webp", name:"زنجر برجر", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn5", img:"md080.webp", name:"زنجر برجر", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 1
-            {id:"mn6", img:"mn00.webp", name:"زنجر فطير", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn6", img:"mn003.webp", name:"زنجر فطير", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
@@ -188,30 +188,30 @@ const menuData = [
   
     { 
         section:"المقبلات ", 
-        sectionImg: "mq00.webp",
+        sectionImg: "mq8900.webp",
         items:[
             // الوجبة 1
-            {id:"mq1", img:"mq00.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن صغير", price:0}]},
+            {id:"mq1", img:"mq8900.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن صغير", price:0}]},
             // الوجبة 2
-            {id:"mq2", img:"mq00.webp", name:"بطاطس وسط", basePrice:7, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن وسط", price:0}]}
+            {id:"mq2", img:"mq8900.webp", name:"بطاطس وسط", basePrice:7, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن وسط", price:0}]}
         ]
     },
   
     { 
         section:"المشروبات ", 
-        sectionImg: "kn00.webp",
+        sectionImg: "kn660.webp",
         sectionAvailableIn: ['branch1', 'branch2', 'branch3'], 
         items:[
             // الوجبة 1
-            {id:"kna1", img:"kn01.webp", name:"ببسي", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna1", img:"kn660.webp", name:"ببسي", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 2
-            {id:"kna2", img:"kn02.webp", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"kn660.webp", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
-            {id:"kna2", img:"kn02.webp", name:"خمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"kn660.webp", name:"خمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
             {id:"kna2", img:"kn02.webp", name:"عصير ربيع", basePrice:2, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
-            {id:"kna3", img:"kn03.webp", name:"ماء", basePrice:1, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]}
+            {id:"kna3", img:"kn0.webp", name:"ماء", basePrice:1, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]}
         ]
     }
 ];
