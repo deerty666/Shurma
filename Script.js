@@ -32,7 +32,7 @@ const menuData = [
     },
     { 
         section:"الشاورما", 
-        sectionImg: "sh01.webp", // صورة القسم
+        sectionImg: "sh001.webp", // صورة القسم
         items:[
             // الوجبة 1
             {id:"sh1", img:"sh001.webp", name:"شامي", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
@@ -55,7 +55,7 @@ const menuData = [
                {name:"بالجبن", price:1},
                {name:"دبل جبن", price:2}  
             ]},
-            {id:"sh4", img:"sh01.webp", name:"صاروخا",
+            {id:"sh4", img:"sh001.webp", name:"صاروخا",
              basePrice:8,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -63,7 +63,7 @@ const menuData = [
                {name:"بالجبن", price:1}, 
                {name:"دبل جبن", price:2}  
             ]},
-             {id:"sh4", img:"sh01.webp", name:"صاروخ اسبيشل",
+             {id:"sh4", img:"sh001.webp", name:"صاروخ اسبيشل",
              basePrice:14,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
