@@ -2,7 +2,7 @@
 const BRANCH_CONFIG = {
     'branch1': { 
         whatsapp: '966112020203', // ⭐️ رقم واتساب فرع الرياض (كمثال)
-        name: 'لبن الاحمدية', // اسم الفرع في الرسائل وعنوان الصفحة
+        name: 'لذة الشاطر ', // اسم الفرع في الرسائل وعنوان الصفح
         deliveryFee: 5,
     },
     'branch2': {
@@ -27,12 +27,12 @@ const menuData = [
     // 1. القسم الجديد: الكل
     { 
         section:"الكل", 
-        sectionImg: "logo-bg.webp", // صورة عامة
+        sectionImg: "logo-bg55.webp", // صورة عامة
         items:[] 
     },
     { 
         section:"الشاورما", 
-        sectionImg: "sh00.webp", // صورة القسم
+        sectionImg: "sh01.webp", // صورة القسم
         items:[
             // الوجبة 1
             {id:"sh1", img:"sh00.webp", name:"شامي", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
@@ -41,13 +41,13 @@ const menuData = [
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 2: تم تغيير اسمها
-            {id:"sh2", img:"sh00.webp", name:"صامولي", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"sh2", img:"sh02.webp", name:"صامولي", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:"بدون جبن", price:0},
                 {name:"بالجبن", price:1},
                 {name:"دبل جبن", price:2}
             ]},
             // الوجبة 3: نص شواية سادة
-            {id:"sh3", img:"sh10.webp", name:"فطيرة",
+            {id:"sh3", img:"sh1.webp", name:"فطيرة",
              basePrice:6,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -55,7 +55,7 @@ const menuData = [
                {name:"بالجبن", price:1},
                {name:"دبل جبن", price:2}  
             ]},
-            {id:"sh4", img:"sh10.webp", name:"صاروخا",
+            {id:"sh4", img:"sh11.webp", name:"صاروخا",
              basePrice:8,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
