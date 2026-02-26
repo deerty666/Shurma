@@ -1,63 +1,85 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مطاعم شورما لذة الشاطر</title>
-
-<style>
-body{
-    margin:0;
-    font-family: 'Tahoma', sans-serif;
-    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
-    url('background.jpg') center/cover no-repeat;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    text-align:center;
-}
-
-.container{
-    background: rgba(0,0,0,.6);
-    padding:40px;
-    border-radius:20px;
-    width:90%;
-    max-width:400px;
-}
-
-h1{
-    margin-bottom:30px;
-    font-size:24px;
-}
-
-.branch-btn{
-    display:block;
-    background:#e74c3c;
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    margin:15px 0;
-    border-radius:12px;
-    font-size:18px;
-    transition:.3s;
-}
-
-.branch-btn:hover{
-    background:#c0392b;
-    transform:scale(1.05);
-}
-</style>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "e0889409-9aa2-415e-a8e6-c562b17d2de9",
+    });
+  });
+</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>مطاعم ومطابخ سحايب ديرتي - اختيار الفرع</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1A1512"> 
+    
+    <style>
+        /* إضافة تنسيقات خاصة لمركزة المحتوى في صفحة اختيار الفرع */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 0;
+        }
+        .branch-selection-container {
+            max-width: 400px;
+            width: 90%;
+            padding: 25px;
+            background: var(--card-bg-dark);
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        .branch-selection-container h1 {
+            color: var(--gold);
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 10px;
+            font-weight: 800;
+        }
+        .branch-link {
+            display: block;
+            background: var(--gold);
+            color: var(--old-brown);
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            transition: background 0.2s, transform 0.1s;
+        }
+        .branch-link:hover {
+            background: #a07c4c;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
-
 <body>
 
-<div class="container">
-    <h1>أهلاً وسهلاً بكم 🌟<br>اختر الفرع</h1>
+<div class="branch-selection-container">
+    <h1>اختر الفرع الأقرب إليك</h1>
 
-    <a class="branch-btn" href="menu-branch1.html">📍 فرع النسيم</a>
-    <a class="branch-btn" href="menu-branch2.html">📍 فرع الروضة</a>
+    <a href="menu.html?branch=branch1" class="branch-link">
+        لبن الاحمدية
+    </a>
+    
+    <a href="menu.html?branch=branch2" class="branch-link">
+        شمال الرياض مخرج ٦
+    </a>
+    
+    <a href="menu.html?branch=branch3" class="branch-link">
+        الروضه خالد بن الوليد
+    </a>
+    
 </div>
 
 </body>
