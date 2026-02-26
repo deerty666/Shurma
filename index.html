@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=menu.html">
-    <title>مطاعم شورما لذة الشاطر</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مطاعم شورما لذة الشاطر</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Tahoma', sans-serif;
+    background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+    url('background.jpg') center/cover no-repeat;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+.container{
+    background: rgba(0,0,0,.6);
+    padding:40px;
+    border-radius:20px;
+    width:90%;
+    max-width:400px;
+}
+
+h1{
+    margin-bottom:30px;
+    font-size:24px;
+}
+
+.branch-btn{
+    display:block;
+    background:#e74c3c;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    margin:15px 0;
+    border-radius:12px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.branch-btn:hover{
+    background:#c0392b;
+    transform:scale(1.05);
+}
+</style>
 </head>
+
 <body>
-    <script>
-        window.location.href = "menu.html";
-    </script>
+
+<div class="container">
+    <h1>أهلاً وسهلاً بكم 🌟<br>اختر الفرع</h1>
+
+    <a class="branch-btn" href="menu-branch1.html">📍 فرع النسيم</a>
+    <a class="branch-btn" href="menu-branch2.html">📍 فرع الروضة</a>
+</div>
+
 </body>
 </html>
