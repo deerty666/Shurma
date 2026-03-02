@@ -2,13 +2,9 @@
 const BRANCH_CONFIG = {
     'branch1': { 
         whatsapp: '966536803598', // ⭐️ رقم واتساب فرع الرياض (كمثال)
-        name: 'لذة الشاطر ', // اسم الفرع في الرسائل وعنوان الصفح
+        name: 'خلطة البرنس فرع الأحمدية  ', // اسم الفرع في الرسائل وعنوان الصفح
         deliveryFee: 5,
-    },
-    'branch2': {
-        whatsapp: '9665XXXXXXXX2', // ⚠️ يرجى تغيير رقم الواتساب لفرع جدة
-        name: 'شمال الرياض مخرج ٦', 
-        deliveryFee: 5, 
+    
     },
     'branch3': {
         whatsapp: '966536803598', // ⚠️ يرجى تغيير رقم الواتساب لفرع مكة
@@ -20,7 +16,7 @@ const BRANCH_CONFIG = {
 /* ====== متغير لتحديد الفرع الحالي من الرابط ====== */
 const currentBranchId = 'branch1';
 const currentBranch = BRANCH_CONFIG[currentBranchId] || BRANCH_CONFIG['branch1'];
-document.title = `قائمة لذة الشاطر - فرع ${currentBranch.name}`;
+document.title = `قائمة خلطة البرنس- فرع ${currentBranch.name}`;
 
 /* ====== بيانات المنيو - تم تحديث جميع مسارات الصور إلى صيغة WEBP وباسم قصير (مثال: /Dirty55/sh01.webp) ====== */
 const menuData = [
@@ -35,70 +31,92 @@ const menuData = [
         sectionImg: "sh001.webp", // صورة القسم
         items:[
             // الوجبة 1
-            {id:"sh1", img:"sh001.webp", name:"شامي", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
+            {id:"sh1", img:"sh001.webp", name:"صاروخ شورماصاج", basePrice:12, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+                {name:"هلابينو", price:1},
                 {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+                {name:"جبن اكستر", price:1}
             ]},
             // الوجبة 2: تم تغيير اسمها
-            {id:"sh2", img:"sh056.webp", name:"صامولي", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0},
+            {id:"sh2", img:"sh056.webp", name:"شورما صامولي بسكوت", basePrice:8, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+                {name:" هلابينو", price:1},
                 {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+                {name:" جبن اكستر", price:1}
             ]},
             // الوجبة 3: نص شواية سادة
-            {id:"sh3", img:"sh110.webp", name:"فطيرة",
+            {id:"sh3", img:"sh110.webp", name:"تورتيلا حار",
+             basePrice:7,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[
+               {name:"هلابينو", price:1},
+               {name:"بالجبن", price:1},
+               {name:"جبن اكستر", price:1}  
+            ]},
+            {id:"sh4", img:"sh001.webp", name:"شورما كلاسك صغير",
              basePrice:6,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"بدون جبن", price:0},
-               {name:"بالجبن", price:1},
-               {name:"دبل جبن", price:2}  
+               {name:"هلابينو", price:1},
+               {name:"بالجبن", price:1}, 
+               {name:"جبن اكستر", price:1}  
             ]},
-            {id:"sh4", img:"sh001.webp", name:"صاروخا",
-             basePrice:8,
+             {id:"sh4", img:"sh001.webp", name:"توريتلا صغير",
+             basePrice:6,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"بدون جبن", price:0},
+               {name:"هلابينو", price:1},
                {name:"بالجبن", price:1}, 
-               {name:"دبل جبن", price:2}  
+               {name:"جبن اكستر", price:1}  
             ]},
-             {id:"sh4", img:"sh001.webp", name:"صاروخ اسبيشل",
-             basePrice:14,
+              {id:"sh5", img:"sh108.webp", name:"صحن عرببي عادي6قطع",
+             basePrice:18,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"بدون جبن", price:0},
-               {name:"بالجبن", price:1}, 
-               {name:"دبل جبن", price:2}  
+               {name:"هلبينو", price:1},
+               {name:"بالجين", price:1}, 
+               {name:"جبن كستر", price:1}  
             ]},
-              {id:"sh5", img:"sh108.webp", name:"صحن عربي صغير",
+            {id:"sh7", img:"sh10.webp", name:"سنقتشر",
              basePrice:15,
              isBestSeller: true,
-             availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"بدون جبن", price:0},
-               {name:"بالجين", price:1}, 
-               {name:"دبل جبن", price:2}  
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh7", img:"sh10.webp", name:"صحن محمرصغير",
-             basePrice:15,
+           {id:"sh8", img:"sh10.webp", name:"شورما بايتز10حبات وببسي",
+             basePrice:22,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"بدون جبن", price:0},
-               {name:"بالجين", price:1}, 
-               {name:"دبل جبن", price:2}  
+            ]},
+            {id:"sh9", img:"sh10.webp", name:"برجر بطاطس شاورما سلايد4قطع ببسي",
+             basePrice:23,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[  
+            ]},
+            {id:"sh10", img:"sh10.webp", name:"كلوب شورما",
+             basePrice:20,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+            {id:"sh11", img:"sh10.webp", name:"كلوب زنجر",
+             basePrice:20,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+            {id:"sh12", img:"sh10.webp", name:"صحن شورما شرائح",
+             basePrice:25,
+             isBestSeller: true,
+             availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 4: العرض الاقتصادي الجديد
             {
                 id:"sh6", 
                 img:"sh108.webp", 
-                name:"صحن عربي وسط", 
-                basePrice:20, 
+                name:"شورما عربي 24قطعة", 
+                basePrice:60, 
                 isBestSeller: true, 
                 availableIn: ['branch1', 'branch2', 'branch3'], 
                 options:[
-                    {name:"بدون جبن", price:0},
-                    {name:"بالجبن", price:2},
-                    {name:"دبل جبن", price:4}
+                    {name:"هلابينو", price:3},
+                    {name:"بالجبن", price:3},
+                    {name:"جبن اكستر", price:3}
                 ]
             }
         ]
