@@ -198,7 +198,7 @@ const menuData = [
             {id:"mn9", img:"mn0303.webp", name:"صوص التومنار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             
-            {id:"mn10", img:"mn0880.webp", name:"مخلل خيار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn10", img:"mn0880.png", name:"مخلل خيار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             
             {id:"mn12", img:"mn0303.webp", name:"هلابينو", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
