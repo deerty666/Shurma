@@ -1,7 +1,7 @@
 {
-  "name": "قائمة لذك الشاطر",
-  "short_name": "شورما لذة الشاطر",
-  "description": " مطعم لذة الشاطر للشورما",
+  "name": "شاورما",
+  "short_name": "شاورماخلطة البرنس",
+  "description": " شاورما خلطة البرنس",
   "start_url": "menu.html",  // 🚨 تم التعديل هنا لضمان المسار الصحيح
   "display": "standalone",
   "background_color": "#1a1a1a",
