@@ -174,37 +174,37 @@ const menuData = [
         sectionImg: "md040.webp",
         items:[
             // الوجبة 1
-            {id:"mn1", img:"md040.webp", name:"بطيطو رجرج صغير", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn1", img:"md0440.webp", name:"بطيطو رجرج صغير", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn2", img:"md040.webp", name:"بطيطو رجرج كبير", basePrice:13, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn2", img:"md0440.webp", name:"بطيطو رجرج كبير", basePrice:13, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn3", img:"md080.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn3", img:"md0808.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn4", img:"mn00.webp", name:"بطاطس كبير", basePrice:8, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn4", img:"md0808.webp", name:"بطاطس كبير", basePrice:8, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn5", img:"md080.webp", name:"بطاطس كبير مبهرة", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn5", img:"md0808.webp", name:"بطاطس كبير مبهرة", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn6", img:"mn003.webp", name:"صوص المتوم", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn6", img:"mn0303.webp", name:"صوص المتوم", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn7", img:"mn00.webp", name:"صوص خاص", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn7", img:"mn0303.webp", name:"صوص خاص", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             
-            {id:"mn9", img:"mn00.webp", name:"صوص التومنار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn9", img:"mn0303.webp", name:"صوص التومنار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             
-            {id:"mn10", img:"mn00.webp", name:"مخلل خيار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn10", img:"mn0880.webp", name:"مخلل خيار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             
-            {id:"mn12", img:"mn00.webp", name:"هلابينو", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"mn12", img:"mn0303.webp", name:"هلابينو", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 2
-            {id:"mn11", img:"mn00.webp", name:"صوص جبن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[ 
+            {id:"mn11", img:"mn060.webp", name:"صوص جبن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[ 
             ]}
         ]
     },
