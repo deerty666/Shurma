@@ -122,100 +122,95 @@ const menuData = [
         ]
     },
     { 
-        section:"وجبات", 
+        section:"برجر والزنجر", 
         sectionImg: "md040.webp",
         items:[
             // الوجبة 1
-            {id:"md1", img:"md040.webp", name:"وجبه برجردجاج/ببسي/2سندوتش/بطاطس", basePrice:20, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:2},
-                {name:"دبل جبن", price:4}
+            {id:"md1", img:"md040.webp", name:"برجر سنجل دجاج مشوي", basePrice:11, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 1
-            {id:"md2", img:"md040.webp", name:"وجبه برجر لحم/ببسي/2سندوتش/بطاطس", basePrice:46, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:2},
-                {name:"دبل جبن", price:4}
+            {id:"md2", img:"md040.webp", name:"برجر دجاج مشوي دبل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md3", img:"md040.webp", name:"برجر لحم سنجل مشوي", basePrice:13, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md4", img:"md040.webp", name:"برجر لحم دبل مشوي", basePrice:20, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md5", img:"md040.webp", name:"زنجر خبز برجر عادي", basePrice:11, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md6", img:"md040.webp", name:"زنجر خبز برجر دبل", basePrice:16, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md7", img:"md040.webp", name:"زنجر خبز برجر حار", basePrice:11, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md8", img:"md040.webp", name:"زنجر خبز برجر حار دبل", basePrice:16, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md9", img:"md040.webp", name:"زنجر خبز تورتيلا عادي", basePrice:12, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md10", img:"md040.webp", name:"زنجر خبز تورتيلا حار", basePrice:12, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md11", img:"md040.webp", name:"وجبة برجر سنجل لحم", basePrice:20, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            ]},
+                        // الوجبة 1
+            {id:"md12", img:"md040.webp", name:"وجبة برجر لحم دبل", basePrice:26, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 1
-            {id:"md3", img:"md080.webp", name:"وجبه زنجر/ببسي/2سندوتش/بطاطس", basePrice:26, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:2},
-                {name:"دبل جبن", price:4}
+            {id:"md13", img:"md080.webp", name:"وجبة برجر دجاج سنجل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 2
-            {id:"md4", img:"md080.webp", name:"وجبه مسحب", basePrice:15, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0}
+            {id:"md14", img:"md080.webp", name:"وجبة برجر دجاج دبل", basePrice:24, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]}
         ]
     },
     { 
-        section:"السندوتشات ", 
+        section:"اصناف جانبية", 
         sectionImg: "md040.webp",
         items:[
             // الوجبة 1
-            {id:"mn1", img:"md040.webp", name:"برجر دجاج", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn1", img:"md040.webp", name:"بطيطو رجرج صغير", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn2", img:"md040.webp", name:"برجر لحم", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn2", img:"md040.webp", name:"بطيطو رجرج كبير", basePrice:13, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn3", img:"md080.webp", name:"مسحب", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn3", img:"md080.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn4", img:"mn00.webp", name:"صاروخ مسحب", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn4", img:"mn00.webp", name:"بطاطس كبير", basePrice:8, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn5", img:"md080.webp", name:"زنجر برجر", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn5", img:"md080.webp", name:"بطاطس كبير مبهرة", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn6", img:"mn003.webp", name:"زنجر فطير", basePrice:10, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn6", img:"mn003.webp", name:"صوص المتوم", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 1
-            {id:"mn7", img:"mn00.webp", name:"زنجر صاروخ", basePrice:12, availableIn: ['branch1','branch2', 'branch3'], options:[ 
-                {name:"رز شعبي", price:0},
-                {name:"رز بشاور", price:1},
-                {name:"رز مثلوثه", price:2}
+            {id:"mn7", img:"mn00.webp", name:"صوص خاص", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            ]},
+            
+            {id:"mn9", img:"mn00.webp", name:"صوص التومنار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            ]},
+            
+            {id:"mn10", img:"mn00.webp", name:"مخلل خيار", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            ]},
+            
+            {id:"mn12", img:"mn00.webp", name:"هلابينو", basePrice:2, availableIn: ['branch1','branch2', 'branch3'], options:[ 
             ]},
             // الوجبة 2
-            {id:"mn8", img:"mn00.webp", name:"سندوتش بطاطس", basePrice:4, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:"بدون جبن", price:0},
-                {name:"بالجبن", price:1},
-                {name:"دبل جبن", price:2}
+            {id:"mn11", img:"mn00.webp", name:"صوص جبن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[ 
             ]}
         ]
     },
   
     { 
-        section:"المقبلات ", 
-        sectionImg: "mq8900.webp",
-        items:[
-            // الوجبة 1
-            {id:"mq1", img:"mq8900.webp", name:"بطاطس صغير", basePrice:5, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن صغير", price:0}]},
-            // الوجبة 2
-            {id:"mq2", img:"mq8900.webp", name:"بطاطس وسط", basePrice:7, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"صحن وسط", price:0}]}
-        ]
-    },
-  
-    { 
+   
         section:"المشروبات ", 
         sectionImg: "kn660.webp",
         sectionAvailableIn: ['branch1', 'branch2', 'branch3'], 
