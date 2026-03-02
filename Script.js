@@ -90,12 +90,12 @@ const menuData = [
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh10", img:"sh10.webp", name:"كلوب شورما",
+            {id:"sh10", img:"sh120.webp", name:"كلوب شورما",
              basePrice:20,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
-            {id:"sh11", img:"sh10.webp", name:"كلوب زنجر",
+            {id:"sh11", img:"sh120.webp", name:"كلوب زنجر",
              basePrice:20,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
