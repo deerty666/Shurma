@@ -43,7 +43,7 @@ const menuData = [
                 {name:" جبن اكستر", price:1}
             ]},
             // الوجبة 3: نص شواية سادة
-            {id:"sh3", img:"sh110.webp", name:"تورتيلا حار",
+            {id:"sh3", img:"sh150.webp", name:"تورتيلا حار",
              basePrice:7,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -59,7 +59,7 @@ const menuData = [
                {name:"بالجبن", price:1}, 
                {name:"جبن اكستر", price:1}  
             ]},
-             {id:"sh4", img:"sh001.webp", name:"توريتلا صغير",
+             {id:"sh4", img:"sh0501.webp", name:"توريتلا صغير",
              basePrice:6,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -75,7 +75,7 @@ const menuData = [
                {name:"بالجين", price:1}, 
                {name:"جبن كستر", price:1}  
             ]},
-            {id:"sh7", img:"sh10.webp", name:"سنقتشر",
+            {id:"sh7", img:"sh190.webp", name:"سنقتشر",
              basePrice:15,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
@@ -100,7 +100,7 @@ const menuData = [
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
-            {id:"sh12", img:"sh10.webp", name:"صحن شورما شرائح",
+            {id:"sh12", img:"sh1670.webp", name:"صحن شورما شرائح",
              basePrice:25,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
