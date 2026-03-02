@@ -171,7 +171,7 @@ const menuData = [
     },
     { 
         section:"اصناف جانبية", 
-        sectionImg: "md040.webp",
+        sectionImg: "md0440.webp",
         items:[
             // الوجبة 1
             {id:"mn1", img:"md0440.webp", name:"بطيطو رجرج صغير", basePrice:7, availableIn: ['branch1','branch2', 'branch3'], options:[ 
