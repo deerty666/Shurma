@@ -3,13 +3,13 @@ const BRANCH_CONFIG = {
     'branch1': { 
         whatsapp: '966502451644', // ⭐️ رقم واتساب فرع الرياض (كمثال)
         name: 'خلطة البرنس فرع الأحمدية  ', // اسم الفرع في الرسائل وعنوان الصفح
-        deliveryFee: 5,
+        deliveryFee: 3,
     
     },
     'branch3': {
         whatsapp: '966598120127', // ⚠️ يرجى تغيير رقم الواتساب لفرع مكة
         name: 'الروضه خالد بن الوليد ', 
-        deliveryFee: 5,
+        deliveryFee: 3,
     }
 };
 
