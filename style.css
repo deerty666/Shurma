@@ -892,3 +892,13 @@ div[style*="border-top"] label {
 .ios-install-banner button:hover {
     background: #a07c4c;
 }
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
