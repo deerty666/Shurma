@@ -31,13 +31,13 @@ const menuData = [
         sectionImg: "sh001.webp", // صورة القسم
         items:[
             // الوجبة 1
-            {id:"sh1", img:"a19.jpg", name:"صاروخ شورماصاج", basePrice:12, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+            {id:"sh1", img:"a19.jpg", name:"صاروخ شاورماصاج", basePrice:12, availableIn: ['branch1','branch2', 'branch3'], options:[ 
                 {name:"هلابينو", price:1},
                 {name:"بالجبن", price:1},
                 {name:"جبن اكستر", price:1}
             ]},
             // الوجبة 2: تم تغيير اسمها
-            {id:"sh2", img:"a25.jpg", name:"شورما صامولي بسكوت", basePrice:8, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"sh2", img:"a25.jpg", name:"شاورما صامولي بسكوت", basePrice:8, availableIn: ['branch1', 'branch2', 'branch3'], options:[
                 {name:" هلابينو", price:1},
                 {name:"بالجبن", price:1},
                 {name:" جبن اكستر", price:1}
@@ -51,7 +51,7 @@ const menuData = [
                {name:"بالجبن", price:1},
                {name:"جبن اكستر", price:1}  
             ]},
-            {id:"sh4", img:"a21.jpg", name:"شورما كلاسك صغير",
+            {id:"sh4", img:"a21.jpg", name:"شاورما كلاسك صغير",
              basePrice:6,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -85,7 +85,7 @@ const menuData = [
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-           {id:"sh8", img:"as33.jpg", name:"شورما بايتز10حبات وببسي",
+           {id:"sh8", img:"as33.jpg", name:"شاورما بايتز10حبات وببسي",
              basePrice:22,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -95,7 +95,7 @@ const menuData = [
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh10", img:"a24.jpg", name:"كلوب شورما",
+            {id:"sh10", img:"a24.jpg", name:"كلوب شاورما",
              basePrice:20,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -105,7 +105,7 @@ const menuData = [
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
-            {id:"sh12", img:"a29.jpg", name:"صحن شورما شرائح",
+            {id:"sh12", img:"a29.jpg", name:"صحن شاورما شرائح",
              basePrice:25,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -114,7 +114,7 @@ const menuData = [
             {
                 id:"sh6", 
                 img:"a23.jpg", 
-                name:"شورما عربي 24قطعة", 
+                name:"شاورما عربي 24قطعة", 
                 basePrice:60, 
                 isBestSeller: true, 
                 availableIn: ['branch1', 'branch2', 'branch3'], 
@@ -223,11 +223,11 @@ const menuData = [
             // الوجبة 1
             {id:"kna1", img:"a35.jpg", name:"ببسي", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 2
-            {id:"kna2", img:"a35.jpg", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"a351.jpg", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
-            {id:"kna2", img:"a35.jpg", name:"خمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"a352.jpg", name:"خمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
-            {id:"kna2", img:"a35.jpg", name:"عصير ربيع", basePrice:2, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"a353.jpg", name:"عصير ربيع", basePrice:2, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
             {id:"kna3", img:"kn0.webp", name:"ماء", basePrice:1, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]}
         ]
