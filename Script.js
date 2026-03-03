@@ -45,7 +45,7 @@ const menuData = [
             // الوجبة 3: نص شواية سادة
             {id:"sh3", img:"a20.jpg", name:"تورتيلا حار",
              basePrice:7,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
                {name:"بالجبن", price:1},
@@ -53,7 +53,7 @@ const menuData = [
             ]},
             {id:"sh4", img:"a21.jpg", name:"شورما كلاسك صغير",
              basePrice:6,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
                {name:"بالجبن", price:1}, 
@@ -61,7 +61,7 @@ const menuData = [
             ]},
              {id:"sh4", img:"a20.jpg", name:"توريتلا صغير",
              basePrice:6,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
                {name:"بالجبن", price:1}, 
@@ -77,7 +77,7 @@ const menuData = [
             ]},
             {id:"sh7", img:"a17.jpg", name:"سنقتشر",
              basePrice:15,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
             {id:"sh70", img:"a18.jpg", name:"بطاطس مبهر",
@@ -87,17 +87,17 @@ const menuData = [
             ]},
            {id:"sh8", img:"as33.jpg", name:"شورما بايتز10حبات وببسي",
              basePrice:22,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             {id:"sh9", img:"a28.jpg", name:"برجر بطاطس شاورما سلايد4قطع ببسي",
              basePrice:23,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
             {id:"sh10", img:"a24.jpg", name:"كلوب شورما",
              basePrice:20,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             {id:"sh11", img:"a13.jpg", name:"كلوب زنجر",
@@ -107,7 +107,7 @@ const menuData = [
             ]},
             {id:"sh12", img:"a29.jpg", name:"صحن شورما شرائح",
              basePrice:25,
-             isBestSeller: true,
+             isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 4: العرض الاقتصادي الجديد
