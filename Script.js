@@ -223,9 +223,9 @@ const menuData = [
             // الوجبة 1
             {id:"kna1", img:"a35.jpg", name:"ببسي", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 2
-            {id:"kna2", img:"a351.jpg", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"a351.png", name:"سفن", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
-            {id:"kna2", img:"a352.jpg", name:"خمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
+            {id:"kna2", img:"a352.jpg", name:"حمضيات", basePrice:3, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
             {id:"kna2", img:"a353.jpg", name:"عصير ربيع", basePrice:2, availableIn: ['branch1', 'branch2', 'branch3'], options:[{name:"", price:0}]},
             // الوجبة 3
