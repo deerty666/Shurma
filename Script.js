@@ -1100,5 +1100,57 @@ function renderCartSuggestions() {
         suggestionsContainer.appendChild(itemDiv);
     });
 }
+/* ====== رسالة ترحيبية تظهر كل مرة عند فتح التطبيق ====== */
+document.addEventListener("DOMContentLoaded", () => {
 
+    setTimeout(() => {
+
+        const welcomeBox = document.createElement("div");
+        welcomeBox.innerHTML = `
+            <div style="
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.65);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+            ">
+                <div style="
+                    background: #111;
+                    padding: 25px;
+                    border-radius: 18px;
+                    text-align: center;
+                    max-width: 330px;
+                    color: white;
+                    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+                    animation: fadeInScale 0.4s ease;
+                ">
+                    <h2 style="margin-bottom:10px;">👋 أهلاً بك في خلطة البرنس</h2>
+                    <p style="margin-bottom:20px; font-size:14px;">
+                        اطلب الآن واستمتع بألذ الشاورما 🔥<br>
+                        والتوصيل سريع لحد باب بيتك 🚀
+                    </p>
+                    <button onclick="this.closest('div').parentElement.remove()" 
+                        style="
+                            background: var(--gold);
+                            border:none;
+                            padding:10px 20px;
+                            border-radius:10px;
+                            cursor:pointer;
+                            font-weight:bold;
+                        ">
+                        دخول القائمة
+                    </button>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(welcomeBox);
+
+    }, 600); // تظهر بعد 0.6 ثانية
+});
 // ------------------------------------------
