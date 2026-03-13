@@ -80,8 +80,8 @@ const menuData = [
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh70", img:"a12.jpg", name:"تشيز فرايز",
-             basePrice:15,
+            {id:"sh70", img:"a18.jpg", name:"تشيز فرايز",
+             basePrice:12,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
