@@ -80,7 +80,7 @@ const menuData = [
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh70", img:"a18.jpg", name:"بطاطس مبهر",
+            {id:"sh70", img:"a18.jpg", name:"تشيز فرايز",
              basePrice:15,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
@@ -170,7 +170,7 @@ const menuData = [
             {id:"md13", img:"a66.jpg", name:"وجبة برجر دجاج سنجل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 2
-            {id:"md14", img:"a22.jpg", name:"وجبة برجر دجاج دبل", basePrice:24, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md14", img:"a222.jpg", name:"وجبة برجر دجاج دبل", basePrice:24, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]}
         ]
     },
