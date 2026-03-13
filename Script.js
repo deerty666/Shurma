@@ -44,7 +44,7 @@ const menuData = [
             ]},
             // الوجبة 3: نص شواية سادة
             {id:"sh3", img:"a20.jpg", name:"تورتيلا حار",
-             basePrice:7,
+             basePrice:8,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
@@ -52,7 +52,7 @@ const menuData = [
                {name:"جبن اكستر", price:1}  
             ]},
             {id:"sh4", img:"a21.jpg", name:"شاورما كلاسك صغير",
-             basePrice:6,
+             basePrice:7,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
@@ -80,7 +80,7 @@ const menuData = [
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
             ]},
-            {id:"sh70", img:"a18.jpg", name:"تشيز فرايز",
+            {id:"sh70", img:"a12.jpg", name:"تشيز فرايز",
              basePrice:15,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[  
