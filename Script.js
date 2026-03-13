@@ -134,7 +134,7 @@ const menuData = [
             {id:"md1", img:"a8.jpg", name:"برجر سنجل دجاج مشوي", basePrice:11, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 1
-            {id:"md2", img:"a11.jpg", name:"برجر دجاج مشوي دبل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md2", img:"a111.jpg", name:"برجر دجاج مشوي دبل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
                         // الوجبة 1
             {id:"md3", img:"a9.jpg", name:"برجر لحم سنجل مشوي", basePrice:13, availableIn: ['branch1', 'branch2', 'branch3'], options:[
@@ -167,10 +167,10 @@ const menuData = [
             {id:"md12", img:"a4.jpg", name:"وجبة برجر لحم دبل", basePrice:26, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 1
-            {id:"md13", img:"a6.jpg", name:"وجبة برجر دجاج سنجل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md13", img:"a66.jpg", name:"وجبة برجر دجاج سنجل", basePrice:18, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]},
             // الوجبة 2
-            {id:"md14", img:"a2.jpg", name:"وجبة برجر دجاج دبل", basePrice:24, availableIn: ['branch1', 'branch2', 'branch3'], options:[
+            {id:"md14", img:"a22.jpg", name:"وجبة برجر دجاج دبل", basePrice:24, availableIn: ['branch1', 'branch2', 'branch3'], options:[
             ]}
         ]
     },
