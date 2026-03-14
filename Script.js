@@ -60,7 +60,7 @@ const menuData = [
                {name:"جبن اكستر", price:1}  
             ]},
              {id:"sh4", img:"a20.jpg", name:"توريتلا صغير",
-             basePrice:6,
+             basePrice:7,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
                {name:"هلابينو", price:1},
