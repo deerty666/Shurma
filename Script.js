@@ -125,9 +125,10 @@ const menuData = [
                 isBestSeller: true, 
                 availableIn: ['branch1', 'branch2', 'branch3'], 
                 options:[
-                    {name:"هلابينو", price:3},
-                    {name:"بالجبن", price:3},
-                    {name:"جبن اكستر", price:3}
+                    {name:"بدون", price:0},
+                {name:"هلابينو", price:2},
+                {name:"بالجبن", price:2},
+                {name:"جبن اكستر", price:2}
                 ]
             }
         ]
