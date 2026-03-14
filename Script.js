@@ -32,48 +32,54 @@ const menuData = [
         items:[
             // الوجبة 1
             {id:"sh1", img:"a19.jpg", name:"صاروخ شاورماصاج", basePrice:12, availableIn: ['branch1','branch2', 'branch3'], options:[ 
+                {name:"بدون", price:0},
                 {name:"هلابينو", price:1},
                 {name:"بالجبن", price:1},
                 {name:"جبن اكستر", price:1}
             ]},
             // الوجبة 2: تم تغيير اسمها
             {id:"sh2", img:"a25.jpg", name:"شاورما صامولي بسكوت", basePrice:8, availableIn: ['branch1', 'branch2', 'branch3'], options:[
-                {name:" هلابينو", price:1},
+                {name:"بدون", price:0},
+                {name:"هلابينو", price:1},
                 {name:"بالجبن", price:1},
-                {name:" جبن اكستر", price:1}
+                {name:"جبن اكستر", price:1}
             ]},
             // الوجبة 3: نص شواية سادة
             {id:"sh3", img:"a20.jpg", name:"تورتيلا حار",
              basePrice:8,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"هلابينو", price:1},
-               {name:"بالجبن", price:1},
-               {name:"جبن اكستر", price:1}  
+               {name:"بدون", price:0},
+                {name:"هلابينو", price:1},
+                {name:"بالجبن", price:1},
+                {name:"جبن اكستر", price:1}  
             ]},
             {id:"sh4", img:"a21.jpg", name:"شاورما كلاسك صغير",
              basePrice:6,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"هلابينو", price:1},
-               {name:"بالجبن", price:1}, 
-               {name:"جبن اكستر", price:1}  
+               {name:"بدون", price:0},
+                {name:"هلابينو", price:1},
+                {name:"بالجبن", price:1},
+                {name:"جبن اكستر", price:1}  
             ]},
              {id:"sh4", img:"a20.jpg", name:"توريتلا صغير",
              basePrice:7,
              isBestSeller: false,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"هلابينو", price:1},
-               {name:"بالجبن", price:1}, 
-               {name:"جبن اكستر", price:1}  
+               {name:"بدون", price:0},
+                {name:"هلابينو", price:1},
+                {name:"بالجبن", price:1},
+                {name:"جبن اكستر", price:1}  
             ]},
               {id:"sh5", img:"a22.jpg", name:"صحن عرببي عادي6قطع",
              basePrice:18,
              isBestSeller: true,
              availableIn: ['branch1', 'branch2', 'branch3'], options:[
-               {name:"هلبينو", price:1},
-               {name:"بالجين", price:1}, 
-               {name:"جبن كستر", price:1}  
+               {name:"بدون", price:0},
+                {name:"هلابينو", price:1},
+                {name:"بالجبن", price:1},
+                {name:"جبن اكستر", price:1}
             ]},
             {id:"sh7", img:"a17.jpg", name:"سنقتشر",
              basePrice:15,
