@@ -902,3 +902,39 @@ div[style*="border-top"] label {
         transform: scale(1);
     }
 }
+/* ===== apps bar ===== */
+.apps-wrapper {
+    margin: 10px 12px;
+    text-align: center;
+}
+
+.apps-title {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.apps-bar {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.app-box {
+    background: #111;
+    padding: 10px 14px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: 0.25s;
+}
+
+.app-box img {
+    width: 90px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.app-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
