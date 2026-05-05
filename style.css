@@ -988,3 +988,116 @@ div[style*="border-top"] label {
 .app-box {
     animation: autoGlow 3.5s ease-in-out infinite;
 }
+/* =============================== */
+/* 🔥 تأثير احترافي للكروت (Glass + Glow) */
+/* =============================== */
+
+.card {
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(6px);
+}
+
+/* لمعة متحركة */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(195, 158, 106, 0.3),
+        transparent
+    );
+    transform: skewX(-20deg);
+}
+
+/* تشغيل اللمعة عند المرور */
+.card:hover::before {
+    animation: shine-card 0.8s ease;
+}
+
+@keyframes shine-card {
+    0% { left: -120%; }
+    100% { left: 140%; }
+}
+
+/* رفع الكرت */
+.card:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+
+/* =============================== */
+/* 🚀 زر السلة (نسخة أسطورية) */
+/* =============================== */
+
+#cartBtn {
+    background: linear-gradient(135deg, #c39e6a, #e0b97a);
+    box-shadow: 0 0 15px rgba(195, 158, 106, 0.5);
+}
+
+/* نبض خفيف */
+@keyframes cartPulse {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+#cartBtn {
+    animation: cartPulse 2s infinite;
+}
+
+/* =============================== */
+/* ✨ زر الإضافة (Add Button Boost) */
+/* =============================== */
+
+.card .add-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+/* موجة عند الضغط */
+.card .add-btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: rgba(255,255,255,0.2);
+}
+
+.card .add-btn:active::after {
+    left: 100%;
+    transition: 0.4s;
+}
+
+/* =============================== */
+/* 🌟 حركة دخول ناعمة للمنتجات */
+/* =============================== */
+
+.card {
+    animation: fadeUp 0.4s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =============================== */
+/* 🧠 تحسين التجربة (scroll smooth) */
+/* =============================== */
+
+html {
+    scroll-behavior: smooth;
+}
